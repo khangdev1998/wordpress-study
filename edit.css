@@ -1,0 +1,22 @@
+.editor-styles-wrapper h1 {
+  font-size: 24px;
+}
+.editor-styles-wrapper p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+.editor-styles-wrapper > * {
+  font-family: "Open Sans", sans-serif !important;
+  color: #333333;
+}
+.editor-styles-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+}
+
+/* https://gutenberghub.com/how-to-apply-custom-css-to-any-gutenberg-block/ */
