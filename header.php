@@ -11,7 +11,6 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
       <a href="<?php echo get_home_url() ?>
       " class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -27,7 +26,7 @@
             'theme_location' => 'header-menu',
             'menu_id'        => 'header-menu',
         ) );
-       ?> 
+       ?>
       </nav>
     </div>
   </header><!-- End Header -->

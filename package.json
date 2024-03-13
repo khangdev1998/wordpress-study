@@ -10,13 +10,15 @@
     "format:js": "wp-scripts format-js",
     "lint:css": "wp-scripts lint-style",
     "lint:js": "wp-scripts lint-js",
-    "packages-update": "wp-scripts packages-update"
+    "packages-update": "wp-scripts packages-update",
+    "dev": "concurrently \"npm run start\" \"npm run watch\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@wordpress/scripts": "^27.2.0",
-    "browser-sync": "^3.0.2"
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2"
   }
 }
