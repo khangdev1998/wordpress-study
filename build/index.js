@@ -167,6 +167,18 @@ class SelectHeader {
 
 /***/ }),
 
+/***/ "./sass/main.scss":
+/*!************************!*\
+  !*** ./sass/main.scss ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "jquery":
 /*!*************************!*\
   !*** external "jQuery" ***!
@@ -252,20 +264,22 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_ScrollToTop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/ScrollToTop */ "./src/modules/ScrollToTop.js");
-/* harmony import */ var _modules_SelectHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/SelectHeader */ "./src/modules/SelectHeader.js");
-/* harmony import */ var _modules_Global__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/Global */ "./src/modules/Global.js");
-/* harmony import */ var _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/MobileMenu */ "./src/modules/MobileMenu.js");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/main.scss */ "./sass/main.scss");
+/* harmony import */ var _modules_ScrollToTop__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/ScrollToTop */ "./src/modules/ScrollToTop.js");
+/* harmony import */ var _modules_SelectHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/SelectHeader */ "./src/modules/SelectHeader.js");
+/* harmony import */ var _modules_Global__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/Global */ "./src/modules/Global.js");
+/* harmony import */ var _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/MobileMenu */ "./src/modules/MobileMenu.js");
+
 
 
 
 
 
 // Instantiate a new object using our modules/classes
-const global = new _modules_Global__WEBPACK_IMPORTED_MODULE_2__["default"]();
-const scrollToTop = new _modules_ScrollToTop__WEBPACK_IMPORTED_MODULE_0__["default"]();
-const selectHeader = new _modules_SelectHeader__WEBPACK_IMPORTED_MODULE_1__["default"]();
-const mobileMenu = new _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_3__["default"]();
+const global = new _modules_Global__WEBPACK_IMPORTED_MODULE_3__["default"]();
+const scrollToTop = new _modules_ScrollToTop__WEBPACK_IMPORTED_MODULE_1__["default"]();
+const selectHeader = new _modules_SelectHeader__WEBPACK_IMPORTED_MODULE_2__["default"]();
+const mobileMenu = new _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_4__["default"]();
 })();
 
 /******/ })()

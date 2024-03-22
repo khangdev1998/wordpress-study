@@ -2,8 +2,8 @@
 // Khai báo hằng số gốc thư mục
 define('MYTHEME_DIR', get_template_directory());
 define('MYTHEME_URL', get_template_directory_uri());
-define('MYTHEME_CSS_DIR', MYTHEME_URL . '/css');
 define('MYTHEME_IMG_DIR', MYTHEME_URL . '/images');
+define('MYTHEME_CSS_DIR', MYTHEME_URL . '/build');
 define('MYTHEME_JS_DIR', MYTHEME_URL . '/build');
 define('MYTHEME_VENDOR_DIR', MYTHEME_URL . '/vendor');
 
@@ -20,7 +20,7 @@ function web_enqueue_styles() {
     wp_enqueue_style('web-swiper', MYTHEME_VENDOR_DIR . '/swiper/swiper-bundle.min.css', array(), '6.5.0');
     
     // Template Main CSS File
-    wp_enqueue_style('web-main-style', MYTHEME_CSS_DIR . '/main.css', array(), '1.0.0');
+    wp_enqueue_style('web-main-style', MYTHEME_CSS_DIR . '/index.css', array(), '1.0.0');
 }
 add_action('wp_enqueue_scripts', 'web_enqueue_styles');
 

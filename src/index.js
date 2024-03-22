@@ -1,3 +1,4 @@
+import "../sass/main.scss";
 import ScrollToTop from "./modules/ScrollToTop";
 import SelectHeader from "./modules/SelectHeader";
 import Global from "./modules/Global";
